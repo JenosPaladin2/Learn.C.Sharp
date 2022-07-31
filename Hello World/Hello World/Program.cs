@@ -2,6 +2,7 @@
 class Hello
 {
 
+    //neuer Kommentar
     /**
      * Wieso braucht man static void Main?
      * Wieso braucht man string[] args???
