@@ -1,12 +1,13 @@
 ﻿using System;
-class Hello {
+class Hello
+{
 
     /**
      * Wieso braucht man static void Main?
      * Wieso braucht man string[] args???
      */
     static void Main(string[] args)
-{
+    {
 
         //Print something in Terminal console
         //Console.WriteLine("Hello World");
@@ -37,14 +38,14 @@ class Hello {
          * then print c and counter
         */
 
-        if(c== 'm')
+        if (c == 'm')
         {
-            Console.WriteLine("i:"+ i);
-            Console.WriteLine("counter:"+ counter);
-            Console.WriteLine("c:"+c);
-            Console.WriteLine("name:"+ name);
+            Console.WriteLine("i:" + i);
+            Console.WriteLine("counter:" + counter);
+            Console.WriteLine("c:" + c);
+            Console.WriteLine("name:" + name);
             Console.WriteLine(counter);
-            Console.WriteLine("per:"+ per);
+            Console.WriteLine("per:" + per);
 
 
             //How to check which type is a variable???
