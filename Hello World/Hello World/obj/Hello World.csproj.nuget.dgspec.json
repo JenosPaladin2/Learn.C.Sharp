@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kumar\\Source\\Repos\\JenosPaladin2\\Learn.C.Sharp\\Hello World\\Hello World\\Hello World.csproj": {}
+    "C:\\Users\\Kumar\\source\\repos\\JenosPaladin2\\Learn.C.Sharp\\Hello World\\Hello World\\Hello World.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kumar\\Source\\Repos\\JenosPaladin2\\Learn.C.Sharp\\Hello World\\Hello World\\Hello World.csproj": {
+    "C:\\Users\\Kumar\\source\\repos\\JenosPaladin2\\Learn.C.Sharp\\Hello World\\Hello World\\Hello World.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kumar\\Source\\Repos\\JenosPaladin2\\Learn.C.Sharp\\Hello World\\Hello World\\Hello World.csproj",
+        "projectUniqueName": "C:\\Users\\Kumar\\source\\repos\\JenosPaladin2\\Learn.C.Sharp\\Hello World\\Hello World\\Hello World.csproj",
         "projectName": "Hello World",
-        "projectPath": "C:\\Users\\Kumar\\Source\\Repos\\JenosPaladin2\\Learn.C.Sharp\\Hello World\\Hello World\\Hello World.csproj",
+        "projectPath": "C:\\Users\\Kumar\\source\\repos\\JenosPaladin2\\Learn.C.Sharp\\Hello World\\Hello World\\Hello World.csproj",
         "packagesPath": "C:\\Users\\Kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kumar\\Source\\Repos\\JenosPaladin2\\Learn.C.Sharp\\Hello World\\Hello World\\obj\\",
+        "outputPath": "C:\\Users\\Kumar\\source\\repos\\JenosPaladin2\\Learn.C.Sharp\\Hello World\\Hello World\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

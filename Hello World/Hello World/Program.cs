@@ -51,6 +51,8 @@ class Hello
             //How to check which type is a variable???
         }
 
+        Console.WriteLine("i+1=" + (i+1));
+
         Console.ReadLine();
     }
 }
