@@ -23,6 +23,7 @@ class Hello {
         //float variable
         float per = 6.8f;
 
+        //test
         //object o = c;
         object o = c;
 
