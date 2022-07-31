@@ -48,7 +48,30 @@ class Hello
             Console.WriteLine("per:" + per);
 
 
+            //variable type var similar to javascript var
+            var test = "hallo";
+            Console.WriteLine("Das ist var: " + test);
+
             //How to check which type is a variable???
+            bool isString = test is string;
+            Console.WriteLine("Das ist der typeof var: " + isString);
+
+            //if else with boolean value
+            if (isString)
+            {
+                Console.WriteLine("Der Type von var ist string.");
+            }
+            else
+            {
+                Console.WriteLine("Der Type von var ist nicht string.");
+            }
+
+            //convert data types
+            string convertedValue = Convert.ToString(isString);
+
+            Console.WriteLine("Boolean value converted: " + convertedValue);
+            Console.WriteLine("Typeof converted value: "+ convertedValue.GetTypeCode());
+
         }
 
         Console.ReadLine();
