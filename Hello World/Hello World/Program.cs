@@ -1,7 +1,7 @@
 ﻿using System;
 class Hello
 {
-
+    //new Comment
     //neuer Kommentar
     /**
      * Wieso braucht man static void Main?
