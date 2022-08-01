@@ -1,0 +1,12 @@
+C:\Users\Kumar\Documents\GitHub\Learn.C.Sharp\Variablentypen\Variablentypen\bin\Debug\net6.0\Variablentypen.deps.json
+C:\Users\Kumar\Documents\GitHub\Learn.C.Sharp\Variablentypen\Variablentypen\bin\Debug\net6.0\Variablentypen.dll
+C:\Users\Kumar\Documents\GitHub\Learn.C.Sharp\Variablentypen\Variablentypen\bin\Debug\net6.0\Variablentypen.pdb
+C:\Users\Kumar\Documents\GitHub\Learn.C.Sharp\Variablentypen\Variablentypen\obj\Debug\net6.0\Variablentypen.csproj.AssemblyReference.cache
+C:\Users\Kumar\Documents\GitHub\Learn.C.Sharp\Variablentypen\Variablentypen\obj\Debug\net6.0\Variablentypen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kumar\Documents\GitHub\Learn.C.Sharp\Variablentypen\Variablentypen\obj\Debug\net6.0\Variablentypen.AssemblyInfoInputs.cache
+C:\Users\Kumar\Documents\GitHub\Learn.C.Sharp\Variablentypen\Variablentypen\obj\Debug\net6.0\Variablentypen.AssemblyInfo.cs
+C:\Users\Kumar\Documents\GitHub\Learn.C.Sharp\Variablentypen\Variablentypen\obj\Debug\net6.0\Variablentypen.csproj.CoreCompileInputs.cache
+C:\Users\Kumar\Documents\GitHub\Learn.C.Sharp\Variablentypen\Variablentypen\obj\Debug\net6.0\Variablentypen.dll
+C:\Users\Kumar\Documents\GitHub\Learn.C.Sharp\Variablentypen\Variablentypen\obj\Debug\net6.0\refint\Variablentypen.dll
+C:\Users\Kumar\Documents\GitHub\Learn.C.Sharp\Variablentypen\Variablentypen\obj\Debug\net6.0\Variablentypen.pdb
+C:\Users\Kumar\Documents\GitHub\Learn.C.Sharp\Variablentypen\Variablentypen\obj\Debug\net6.0\ref\Variablentypen.dll

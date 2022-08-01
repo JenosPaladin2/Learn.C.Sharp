@@ -151,7 +151,24 @@ class Hello
         var list = new List<int>(); //same as List<int> list = new List<int>(); 
 
 
+        /**
+         * What are value types?
+         * Value types are generally (not always) stored on the stack and are passed by copying.
+         * The way in which a variable assignment works differs between reference and value types.
+         * 
+         * DE: Wertetypen werden im Allgemeinen (nicht immer) auf dem Speicher gespeichert und durch Kopieren weitergegeben.
+         * Die Art und Weise, wie eine Variablenzuweisung funktioniert, unterscheidet sich zwischen Referenz- und Wertetypen.
+         *
+         */
 
+        //Example:
+        int v1 = 14;
+        int v2 = 24;
+
+        v2 = v1; //overwritten to 14
+
+        Console.WriteLine("v2: "+v2);
+        Console.WriteLine("v1: " + v1);
 
     }
 }
