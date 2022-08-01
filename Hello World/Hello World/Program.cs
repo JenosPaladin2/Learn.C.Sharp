@@ -134,6 +134,23 @@ class Hello
          * 
          */
 
+        /**
+         * What is local Variable Type inference?
+         * C# offers a keyword called "var" that allows a developer to declare a variable without explicitly declaring the type of it. The declared variable gets its data type as soon as it is initialized.
+         * The data type of that variable is known by data type of initialized value.
+         * 
+         * DE: C# bietet ein Schlüsselwort namens "var", mit dem ein Entwickler eine Variable deklarieren kann, ohne explizit den Typ der Variable zu deklarieren.
+         * Die deklarierte Variable erhält ihren Datentyp, sobald sie initialisiert wird. Der Datentyp dieser Variable ist durch den Datentyp des initialisierten Wertes bekannt.
+         *  
+         */
+
+        //Example:
+
+        var inum = 10; //same as int inum = 10;
+        var fnum = 10.3; //same as float fnum = 10.3;
+        var list = new List<int>(); //same as List<int> list = new List<int>(); 
+
+
 
 
     }
