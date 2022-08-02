@@ -1,4 +1,5 @@
 ﻿using System;
+
 class Hello
 {
 
@@ -50,8 +51,10 @@ class Hello
             Console.WriteLine("i+1=" + (i + 1));
 
             //How to check which type is a variable???
-            Console.WriteLine("typeof name: "+name.GetTypeCode());
+            Console.WriteLine("typeof name: " + name.GetTypeCode());
         }
+
+        //-----------------------------------------------------------
 
         /**
          * What is implicit conversion?
@@ -62,7 +65,7 @@ class Hello
          * Einfache Sprache:
          * Implizite Konvertierung bedeutet, dass ein Wert einer Variable zu einem gleichen oder höheren Variablentyp umgewandelt wird.
          */
-        
+
         int x = 4568;
         long y = x; //implicit conversion.
 
@@ -85,7 +88,7 @@ class Hello
 
         int geradeZahl = 45689; //gleicher Typ
         short expliziteZahl = (short)geradeZahl; // niedriger Typ
-        
+
         double d = 3.14314256; // gleicher Typ
         float f = (float)d; //niedriger Typ
 
@@ -167,10 +170,62 @@ class Hello
 
         v2 = v1; //overwritten to 14
 
-        Console.WriteLine("v2: "+v2);
+        Console.WriteLine("v2: " + v2);
         Console.WriteLine("v1: " + v1);
 
 
+        //Example for Reference type
+        A c1 = new A(); //Object vom Typ <Klasse> A initialisieren
+        A c2 = new A(); //Object vom Typ <Klasse> A initialisieren
+
+        c1.SetValue(12); //Werte werden gesetzt über die Funktion setValue
+        c2.SetValue(22); //Werte werden gesetzt über die Funktion setValue
+
+        c2 = c1;
+        
+        Console.WriteLine("c1.value: " + c1.value);
+        Console.WriteLine("c2.value: " + c2.value);
+
+        int v4 = 14;
+        methodtoshowref(ref v4);
+        Console.WriteLine(v4);
+        //var test = Console.ReadLine();
+        //Console.WriteLine("Der Nutzer hat folgendes eingegeben: sdf"+test);
 
     }
+
+    public static void methodtoshowref(ref int v6)
+    {
+        v6 = 100;
+    }
+
+}
+
+/**
+ * What is a class?
+ * What is an object?
+ * What is the difference between both?
+ */
+
+class A
+{
+    /**
+ * What is a Reference Type?
+ * A value type is basically stored on the heap and passed by creating a reference.
+ * 
+ * DE: Ein Werttyp wird grundsätzlich auf dem Heap gespeichert und durch die Erzeugung einer Referenz übergeben.
+ */
+
+    public int value
+    {
+        get;
+        set;
+    }
+
+    public void SetValue(int passbyref)
+    {
+        this.value = passbyref;
+
+    }
+
 }
