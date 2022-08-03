@@ -192,6 +192,24 @@ class Hello
         //var test = Console.ReadLine();
         //Console.WriteLine("Der Nutzer hat folgendes eingegeben: sdf"+test);
 
+        Console.WriteLine("Struct Example:");
+
+        //Create a Book object
+        Book myBook = new Book();
+        myBook.Author = "Sumach Kumar";
+        myBook.Title = "Learning C# for beginners";
+        myBook.Price = 20.99M; //Anscheinend muss ein M danach stehen, um double Werte als Decimal zu konvertieren.
+        myBook.Year = 2022;
+
+        Console.WriteLine("myBook: "+myBook);
+        Console.WriteLine("myBook.Author: "+ myBook.Author);
+        Console.WriteLine("myBook.Title: " + myBook.Title);
+        Console.WriteLine("myBook.Price: " + myBook.Price);
+        Console.WriteLine("myBook.Year: " + myBook.Year);
+
+        //Andere Alternative, um Objektwerte auszugeben in Konsole.
+        Console.WriteLine($"Book {myBook.Title} was written by {myBook.Author}" +
+               $" in {myBook.Year}. Price is {myBook.Price}");
     }
 
     public static void methodtoshowref(ref int v6)
@@ -200,6 +218,24 @@ class Hello
     }
 
 }
+
+/**
+         * What is a C# Struct type?
+         * A struct type is a value that is typically used to encapsulate a group of variables that are similar. A struct type can declare constructors, constants, fields, methods, properties, indexers, operators, and nested types.
+         * 
+         * 
+         * DE: Ein Strukturtyp ist ein Wertetyp, der in der Regel verwendet wird, um eine Gruppe von Variablen zu kapseln, die ähnlich sind.
+         * Ein struct-Typ kann Konstruktoren, Konstanten, Felder, Methoden, Eigenschaften (Properties), Indexer, Operatoren und verschachtelte Typen deklarieren.
+         */
+
+public struct Book
+{
+    public string Title;
+    public string Author;
+    public decimal Price;
+    public short Year;
+}
+
 
 /**
  * What is a class?
