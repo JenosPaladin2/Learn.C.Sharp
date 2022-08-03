@@ -219,23 +219,6 @@ class Hello
 
 }
 
-/**
-         * What is a C# Struct type?
-         * A struct type is a value that is typically used to encapsulate a group of variables that are similar. A struct type can declare constructors, constants, fields, methods, properties, indexers, operators, and nested types.
-         * 
-         * 
-         * DE: Ein Strukturtyp ist ein Wertetyp, der in der Regel verwendet wird, um eine Gruppe von Variablen zu kapseln, die ähnlich sind.
-         * Ein struct-Typ kann Konstruktoren, Konstanten, Felder, Methoden, Eigenschaften (Properties), Indexer, Operatoren und verschachtelte Typen deklarieren.
-         */
-
-public struct Book
-{
-    public string Title;
-    public string Author;
-    public decimal Price;
-    public short Year;
-}
-
 
 /**
  * What is a class?
@@ -265,3 +248,38 @@ class A
     }
 
 }
+
+/**
+         * What is a C# Struct type?
+         * A struct type is a value that is typically used to encapsulate a group of variables that are similar. A struct type can declare constructors, constants, fields, methods, properties, indexers, operators, and nested types.
+         * 
+         * 
+         * DE: Ein Strukturtyp ist ein Wertetyp, der in der Regel verwendet wird, um eine Gruppe von Variablen zu kapseln, die ähnlich sind.
+         * Ein struct-Typ kann Konstruktoren, Konstanten, Felder, Methoden, Eigenschaften (Properties), Indexer, Operatoren und verschachtelte Typen deklarieren.
+         */
+
+public struct Book
+{
+    public string Title;
+    public string Author;
+    public decimal Price;
+    public short Year;
+}
+
+
+/**
+ * What are Enums?
+ * Enums in C# are used to represent a set of constants as integral values.
+ * For example, to represent a week day, we know there are only seven days in a week.
+ * 
+ * 
+ * DE: Enums in C# werden verwendet, um eine Reihe von Konstanten als ganze Werte darzustellen.
+ * Um zum Beispiel einen Wochentag darzustellen, wissen wir, dass es nur sieben Tage in einer Woche gibt.
+ * 
+ */
+
+//Create an enum of week days
+public enum WeekDays { Sun, Mon, Tue, Wed, Thu, Fri, Sat};
+
+//Create an enum of RGB colors
+public enum RGB { Red, Green, Blue};
