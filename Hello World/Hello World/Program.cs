@@ -2,19 +2,18 @@
 
 class Hello
 {
-
     /**
      * Wieso braucht man static void Main?
      * Wieso braucht man string[] args???
      */
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
 
         //Print something in Terminal console
         //Console.WriteLine("Hello World");
         //Console.ReadKey();
 
-        Console.WriteLine("Types Sample");
+        Console.WriteLine("Types Sampdle");
 
         //Declare int variable
         int i = 34;
@@ -182,7 +181,7 @@ class Hello
         c2.SetValue(22); //Werte werden gesetzt über die Funktion setValue
 
         c2 = c1;
-        
+
         Console.WriteLine("c1.value: " + c1.value);
         Console.WriteLine("c2.value: " + c2.value);
 
@@ -201,8 +200,8 @@ class Hello
         myBook.Price = 20.99M; //Anscheinend muss ein M danach stehen, um double Werte als Decimal zu konvertieren.
         myBook.Year = 2022;
 
-        Console.WriteLine("myBook: "+myBook);
-        Console.WriteLine("myBook.Author: "+ myBook.Author);
+        Console.WriteLine("myBook: " + myBook);
+        Console.WriteLine("myBook.Author: " + myBook.Author);
         Console.WriteLine("myBook.Title: " + myBook.Title);
         Console.WriteLine("myBook.Price: " + myBook.Price);
         Console.WriteLine("myBook.Year: " + myBook.Year);
@@ -210,13 +209,21 @@ class Hello
         //Andere Alternative, um Objektwerte auszugeben in Konsole.
         Console.WriteLine($"Book {myBook.Title} was written by {myBook.Author}" +
                $" in {myBook.Year}. Price is {myBook.Price}");
-    }
 
+        
+        //Enums ausgeben
+        Console.WriteLine("Day of Week: ", (int) DayOfWeek.Sunday, DayOfWeek.Sunday);
+        Console.WriteLine("Day of Week: ", (int)DayOfWeek.Monday, DayOfWeek.Monday);
+        Console.WriteLine("Day of Week: ", (int)DayOfWeek.Tuesday, DayOfWeek.Tuesday);
+        Console.WriteLine("Day of Week: ", (int)DayOfWeek.Wednesday, DayOfWeek.Wednesday);
+        Console.WriteLine("Day of Week: ", (int)DayOfWeek.Thursday, DayOfWeek.Thursday);
+        Console.WriteLine("Day of Week: ", (int)DayOfWeek.Friday, DayOfWeek.Friday);
+        Console.WriteLine("Day of Week: ", (int)DayOfWeek.Saturday, DayOfWeek.Saturday);
+    }
     public static void methodtoshowref(ref int v6)
     {
         v6 = 100;
     }
-
 }
 
 
@@ -225,7 +232,6 @@ class Hello
  * What is an object?
  * What is the difference between both?
  */
-
 class A
 {
     /**
@@ -283,3 +289,4 @@ public enum WeekDays { Sun, Mon, Tue, Wed, Thu, Fri, Sat};
 
 //Create an enum of RGB colors
 public enum RGB { Red, Green, Blue};
+
